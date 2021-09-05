@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body class="container">
+    <br><br>
+    <div id="titleHeading">
+        <h1>Welcome To Tic Tac Toe</h1>
+    </div><br><br>
+    
+    <div id="playerTurn">
+        <h3>Player <span id="turn">X</span> Turn</h3>
+    </div><br><br>
+
+    <div id="gameBoard">
+        <div class="row">
+            <div class="col-sm-3"></div>
+
+            <div class="col-sm-2 cell" id="box-one">
+                <!-- <p id="paragraph">Box 1</p> -->
+                <button type="button" class="btn btn-success squares" value="0">Select Square</button>
+            </div>
+
+            <div class="col-sm-2 cell" id="box-two">
+                <!-- <p id="paragraph">Box 2</p> -->
+                <button type="button" class="btn btn-success squares" value="1">Select Square</button>
+            </div>
+
+            <div class="col-sm-2 cell" id="box-three">
+                <!-- <p id="paragraph">Box 3</p> -->
+                <button type="button" class="btn btn-success squares" value="2">Select Square</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+
+            <div class="col-sm-2 cell" id="box-four">
+                <!-- <p>Box 4</p> -->
+                <button type="button" class="btn btn-success squares" value="3">Select Square</button>
+            </div>
+
+            <div class="col-sm-2 cell" id="box-five">
+                <!-- <p>Box 5</p> -->
+                <button type="button" class="btn btn-success squares" value="4">Select Square</button>
+            </div>
+
+            <div class="col-sm-2 cell" id="box-six">
+                <!-- <p>Box 6</p> -->
+                <button type="button" class="btn btn-success squares" value="5">Select Square</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+
+            <div class="col-sm-2 cell" id="box-seven">
+                <!-- <p>Box 7</p> -->
+                <button type="button" class="btn btn-success squares" value="6">Select Square</button>
+            </div>
+            <div class="col-sm-2 cell" id="box-eight">
+                <!-- <p>Box 8</p> -->
+                <button type="button" class="btn btn-success squares" value="7">Select Square</button>
+            </div>
+            <div class="col-sm-2 cell" id="box-nine">
+                <!-- <p>Box 9</p> -->
+                <button type="button" class="btn btn-success squares" value="8">Select Square</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div><br><br>
+        <div>
+            <button type="button" class="btn btn-warning restart" id="restarted">Restart Game</button>
+        </div>
+
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

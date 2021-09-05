@@ -1,0 +1,95 @@
+body {
+    color: gold;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+h1 {
+    font-weight: bold;
+    text-shadow: 2px 2px saddlebrown;
+    text-decoration: underline;
+}
+
+#playerTurn {
+    color: saddlebrown;
+    text-align: center;
+    text-shadow: 1px 1px gold;
+}
+
+.col-sm-2 {
+    padding: 10px;
+}
+
+#box-one {
+    height: 125px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+
+}
+
+#box-two {
+    height: 125px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+
+}
+
+#box-three {
+    height: 125px;
+    border-bottom: 5px solid black;
+
+}
+
+#box-four {
+        height: 125px;
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+    
+}
+
+#box-five {
+    height: 125px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+
+}
+
+#box-six {
+    height: 125px;
+    border-bottom: 5px solid black;
+}
+
+#box-seven {
+    height: 125px;
+    border-right: 5px solid black;
+
+}
+
+#box-eight {
+    height: 125px;
+    border-right: 5px solid black;
+
+}
+
+#box-nine {
+    height: 125px;
+
+}
+
+.cell {
+    font-size: 60px;
+}
+
+.cell:hover {
+    opacity: 50%;
+}
+
+.squares {
+    font-size: 18px;
+}
+
+.restart {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
